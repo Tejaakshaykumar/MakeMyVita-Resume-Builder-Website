@@ -1,0 +1,61 @@
+// import logo from './logo.svg';
+import './App.css';
+
+import Foot from './containers/Foot';
+import Navbar from './containers/Navbar';
+import SignIn from './pages/Signin';
+import TandC from './pages/TandC';
+function App() {
+  return (
+    <div className="App">
+     {/* <TandC /> */}
+     {/* <SignIn/> */}
+     {/* <Navbar/> */}
+     {/* <Foot/> */}
+     <R
+    </div>
+  );
+}
+
+export default App;
+
+// App.js
+// import React from 'react';
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// import Home from './components/Home';
+// import About from './components/About';
+// import Contact from './components/Contact';
+// import NewPage from './components/NewPage';
+// import Navbar from './components/Navbar';
+// import Foot from './components/Foot';
+// import './cont.css'; // Import the CSS file here as well
+
+// function App() {
+//   return (
+//     <Router>
+//       <div id="root">
+//         <div className="content">
+//           <Routes>
+//             {/* Routes without Navbar */}
+//             <Route path="/newpage" element={<NewPage />} />
+//             {/* Routes with Navbar */}
+//             <Route path="/*" element={
+//               <>
+//                 <Navbar />
+//                 <Routes>
+//                   <Route path="/" element={<Home />} />
+//                   <Route path="/about" element={<About />} />
+//                   <Route path="/contact" element={<Contact />} />
+//                 </Routes>
+//               </>
+//             } />
+//           </Routes>
+//         </div>
+//         <Foot />
+//       </div>
+//     </Router>
+//   );
+// }
+
+// export default App;
+

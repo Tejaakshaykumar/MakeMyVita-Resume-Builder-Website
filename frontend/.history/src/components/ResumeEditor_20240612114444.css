@@ -1,0 +1,17 @@
+.resume-editor {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.editor-top {
+    width: 100%;
+}
+
+.editor-temp {
+
+}
+
+.editor-steps {
+
+}

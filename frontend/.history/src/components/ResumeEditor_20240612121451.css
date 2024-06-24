@@ -1,0 +1,29 @@
+.resume-editor {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    background-color: blue;
+    /* height: 50vh; */
+}
+
+.editor-top {
+font-family: 'Muli', sans-serif;
+  background: var(--body-color);
+  /* padding: 1%; */
+  margin: 0;
+  display: flex;
+  width: 100%;
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.editor-steps {
+  width: 50%;
+  background-color: red;
+}
+
+.editor-temp {
+  background-color: rgb(255, 255, 255);
+}
