@@ -28,7 +28,7 @@ function ResumeView() {
     const fetchResume = async () => {
       try {
         const token = localStorage.getItem('token');
-        const response = await fetch(`http://localhost:5000/api/resumes/${resumeId}`, {
+        const response = await fetch(`https://makemyvita.onrender.com/api/resumes/${resumeId}`, {
           method: "GET",
           headers: {
             Authorization: `Bearer ${token}`,
@@ -62,7 +62,7 @@ function ResumeView() {
     </div>
     </div>;
   }
-  const imageSrc = resume.personalDetails.image ? `http://localhost:5000/${resume.personalDetails.image.replace(/\\/g, '/')}` : null;
+  const imageSrc = resume.personalDetails.image ? `https://makemyvita.onrender.com/${resume.personalDetails.image.replace(/\\/g, '/')}` : null;
   console.log({msg:resume.fontColor})
   const renderTemplate = () => {
     const props = {
