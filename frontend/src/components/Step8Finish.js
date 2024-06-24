@@ -20,7 +20,7 @@ const handleChange = (e) => {
   return (
     <div className="step-container">
       <h2>Finish</h2>
-      <p>Review your resume and click the download button to get your resume.</p>
+      <p>Review your resume and click the Finish button to get your resume.</p>
       <div>
         <label>Font Color:</label>
         <input 
