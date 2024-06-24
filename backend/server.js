@@ -19,7 +19,7 @@ const student=require('./routes/StudentDetailsRoutes');
 const additonal=require('./routes/AdditionalDetailsRoutes')
 
 const corsOptions = {
-    origin:["https://make-my-vita.netlify.app/","http://localhost:3000"],
+    origin:"*",
     methods:"GET,PUT,POST,DELETE,PATCH,HEAD",
     credentials:true,
 };
