@@ -10,7 +10,7 @@ export const ResumeProvider = ({ children }) => {
   const fetchResumes = async () => {
     try {
       const token = localStorage.getItem('token');
-      const response = await fetch('http://localhost:5000/api/resumes', {
+      const response = await fetch('https://makemyvita.onrender.com/api/resumes', {
         headers: {
           Authorization: `Bearer ${token}`,
         },

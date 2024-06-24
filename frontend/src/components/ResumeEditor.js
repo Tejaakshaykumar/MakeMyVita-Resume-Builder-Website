@@ -174,7 +174,7 @@ function ResumeEditor() {
         formData.append('image', imageFile);
       }
 
-      const personalDetailsResponse = await fetch('http://localhost:5000/api/personalDetails', {
+      const personalDetailsResponse = await fetch('https://makemyvita.onrender.com/api/personalDetails', {
         method: 'POST',
         headers: {
           // 'Content-Type': 'application/json',
@@ -193,7 +193,7 @@ function ResumeEditor() {
       const personalDetailsData = await personalDetailsResponse;
   
       const educationDetailsPromises = educationDetails.map(detail =>
-        fetch('http://localhost:5000/api/educationDetails', {
+        fetch('https://makemyvita.onrender.com/api/educationDetails', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -210,7 +210,7 @@ function ResumeEditor() {
       );
       const educationDetailsData = await Promise.all(educationDetailsPromises);
       
-      const studentDetailsResponse = await fetch('http://localhost:5000/api/studentDetails', {
+      const studentDetailsResponse = await fetch('https://makemyvita.onrender.com/api/studentDetails', {
         method: 'POST',
         headers: {
            'Content-Type': 'application/json',
@@ -229,7 +229,7 @@ function ResumeEditor() {
       const studentDetailsData = await studentDetailsResponse;
 
       const coursesPromises = courses.map(course =>
-        fetch('http://localhost:5000/api/courseDetails', {
+        fetch('https://makemyvita.onrender.com/api/courseDetails', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -247,7 +247,7 @@ function ResumeEditor() {
       const coursesData = await Promise.all(coursesPromises);
 
       const skillsPromises = skills.map(skill =>
-        fetch('http://localhost:5000/api/skillDetails', {
+        fetch('https://makemyvita.onrender.com/api/skillDetails', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -265,7 +265,7 @@ function ResumeEditor() {
       const skillsData = await Promise.all(skillsPromises);
 
       const experiencesPromises = experiences.map(experience =>
-        fetch('http://localhost:5000/api/experienceDetails', {
+        fetch('https://makemyvita.onrender.com/api/experienceDetails', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -283,7 +283,7 @@ function ResumeEditor() {
       const experiencesData = await Promise.all(experiencesPromises);
 
       const projectsPromises = projects.map(project =>
-        fetch('http://localhost:5000/api/projectDetails', {
+        fetch('https://makemyvita.onrender.com/api/projectDetails', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -302,7 +302,7 @@ function ResumeEditor() {
       const projectsData = await Promise.all(projectsPromises);
 
       const additionalPromises = additionalDetails.map(section =>
-        fetch('http://localhost:5000/api/additonalDetails', {
+        fetch('https://makemyvita.onrender.com/api/additonalDetails', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -320,7 +320,7 @@ function ResumeEditor() {
       const additionalDetailsData = await Promise.all(additionalPromises);
       
   
-      const resumeResponse = await fetch('http://localhost:5000/api/resumes', {
+      const resumeResponse = await fetch('https://makemyvita.onrender.com/api/resumes', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

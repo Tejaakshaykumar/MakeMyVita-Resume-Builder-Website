@@ -46,7 +46,7 @@ function SignIn() {
     try {
       const data = await signInWithPopup(auth, provider);
       const token = await data.user.getIdToken();
-      const response = await fetch('http://localhost:5000/api/firebase/social-login', {
+      const response = await fetch('https://makemyvita.onrender.com/api/firebase/social-login', {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
