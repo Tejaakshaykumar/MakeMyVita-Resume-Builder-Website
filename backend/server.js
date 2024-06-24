@@ -21,7 +21,7 @@ const additonal=require('./routes/AdditionalDetailsRoutes')
 const corsOptions = {
     origin:"*",
     methods:"GET,PUT,POST,DELETE,PATCH,HEAD",
-    credentials:true,
+    credentials:false,
 };
 
 app.use(cors(corsOptions));
