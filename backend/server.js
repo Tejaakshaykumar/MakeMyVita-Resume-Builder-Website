@@ -19,9 +19,9 @@ const student=require('./routes/StudentDetailsRoutes');
 const additonal=require('./routes/AdditionalDetailsRoutes')
 
 const corsOptions = {
-    origin:"*",
+    origin:"https://makemyvita.netlify.app",
     methods:"GET,PUT,POST,DELETE,PATCH,HEAD",
-    credentials:false,
+    credentials:true,
 };
 
 app.use(cors(corsOptions));
