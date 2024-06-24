@@ -34,7 +34,7 @@ const Temp2 = ({
       <header className="header">
         <div className="top-left">
           <div className="image">
-            <img src={imageSrc} alt="nitwlogo" style={{width:'1.5in'}}/>
+            <img src={imageSrc} alt="photo" style={{width:'1.5in'}}/>
           </div>
           <div className="myself">
             <h1>{`${personalDetails.firstName || 'firstName'} ${personalDetails.lastName || 'lastName'}`}</h1>
@@ -97,7 +97,7 @@ const Temp2 = ({
                 <strong>{experience.companyName || 'companyName'}</strong>
                 <p>{experience.jobTitle || 'jobTitle'}</p>
                 <ul>
-                  <li>{experience.jobDescription || 'jobDescription'}</li>
+                  <li>{nl2br(experience.jobDescription) || 'jobDescription'}</li>
                 </ul>
               </div>
               <div className="r">
@@ -118,7 +118,7 @@ const Temp2 = ({
                 <strong>{project.projectName || 'projectName'}</strong>
                 <p>{project.projectLink || 'projectLink'}</p>
                 <ul>
-                  <li>{project.projectDescription || 'projectDescription'}</li>
+                  <li>{nl2br(project.projectDescription) || 'projectDescription'}</li>
                 </ul>
               </div>
               <div className="r">
