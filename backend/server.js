@@ -19,7 +19,7 @@ const student=require('./routes/StudentDetailsRoutes');
 const additonal=require('./routes/AdditionalDetailsRoutes')
 
 const corsOptions = {
-    origin:"*",
+    origin:["https://makemyvita.onrender.com","http://localhost:3000"],
     methods:"GET,PUT,POST,DELETE,PATCH,HEAD",
     credentials:true,
 };
