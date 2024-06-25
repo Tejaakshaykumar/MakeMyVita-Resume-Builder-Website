@@ -1,0 +1,74 @@
+.resume {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0 auto;
+    height: 11in;
+    width: 8.5in;
+    padding: 20px 50px;
+    background-color: rgb(221, 219, 217);
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+  }
+
+  .top-left {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    font-size: small;
+  }
+
+  .image img{
+    width: 80%;
+  }
+
+  .myself {
+    width: 80%;
+    padding-top: 20px;
+    text-align: left;
+  }
+
+  .myself h1 {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  .top-right {
+    margin-top: 10px;
+    font-size: small;
+    text-align: end;
+    width: 40%;
+  }
+  
+  
+
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    border-bottom: 2px solid #000;
+    /* padding-bottom: 5px; */
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  /* ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+  }
+  
+  strong {
+    display: block;
+    margin-bottom: 5px;
+  } */
+  
+  p {
+    margin: 0;
+  }
+  

@@ -1,0 +1,23 @@
+import {  createContext, useContext } from "react";
+
+export const AuthContext =createContext();
+
+export const AuthProvider =({children})=> {
+    const [token]
+    const storeTokenInLS=(serverToken)=>{
+        return localStorage.setItem("token",serverToken);
+    };
+    const LogoutUser=
+
+    return <AuthContext.Provider value={{storeTokenInLS}}>
+        {children}
+    </AuthContext.Provider>
+};
+
+export const useAuth =()=> {
+    const AuthContextValue = useContext(AuthContext);
+    if(!AuthContextValue){
+        throw new Error("useAuth used outside of the Provider");
+    }
+    return AuthContextValue;
+}
