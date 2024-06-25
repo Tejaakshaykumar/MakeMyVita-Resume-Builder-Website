@@ -37,6 +37,25 @@ MakeMyVita is a user-friendly web application designed to help users create prof
 - **Improve Download Functionality**: Resolve issues with file downloads.
 - **Additional Features**: Introduce more customization options, additional templates, and mobile app versions.
 
+### Screenshots:
+#### Login Page
+![Home Page](images/.png)
+
+#### Login Page
+![Login Page](images/.png)
+
+#### Dashboard
+![Dashboard](images/.png)
+
+#### Resume Preview
+![Resume Preview](images/.png)
+
+#### Customization
+![Dashboard](images/.png)
+
+#### Contact US
+![Resume Preview](images/.png)
+
 ### Contact
 Author: Aleti Teja Akshay Kumar  
 Email: [tejaakshaykumar970@gmail.com](mailto:tejaakshaykumar970@gmail.com)
