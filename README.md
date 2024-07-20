@@ -39,7 +39,6 @@ MakeMyVita is a user-friendly web application designed to help users create prof
 
 ### Screenshots:
 #### Login Page
-<<<<<<< HEAD
 ![Home Page](images/Screenshot%20(646).png)
 
 #### Login Page
@@ -56,24 +55,6 @@ MakeMyVita is a user-friendly web application designed to help users create prof
 
 #### Contact US
 ![Resume Preview](images/Screenshot%20(654).png)
-=======
-![Home Page](images/.png)
-
-#### Login Page
-![Login Page](images/.png)
-
-#### Dashboard
-![Dashboard](images/.png)
-
-#### Resume Preview
-![Resume Preview](images/.png)
-
-#### Customization
-![Dashboard](images/.png)
-
-#### Contact US
-![Resume Preview](images/.png)
->>>>>>> 5f01d3789d6e78d9eaef0a4160f73aa63303805f
 
 ### Contact
 Author: Aleti Teja Akshay Kumar  
